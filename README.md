@@ -1,5 +1,9 @@
-# Manually-Validation-Laravel
-Manually Validation with Manually Message Show
+## Manually-Validation-Laravel
+#Manually Validation with Manually Message Show
+
+
+
+
 
 
 
