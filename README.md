@@ -7,10 +7,15 @@ Manually Validation with Manually Message Show
 
 use Illuminate\Support\Facades\Validator;
 
+class ApiProductController extends Controller
+{
+
+
 public function store(Request $request)
 {
 
-$validator = Validator::make($request->all(), [
+$validator = Validator::make($request->all(), 
+          [
             'user_id' => 'required',
             'category_id' => 'required',
             'product_name' => 'required',
@@ -34,3 +39,4 @@ $validator = Validator::make($request->all(), [
         
 }
 
+}
